@@ -1,0 +1,25 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="6" width="40" height="22" fill="#FF007A"/>
+<rect x="8" y="14" width="8" height="14" fill="white"/>
+<rect x="24" y="14" width="8" height="14" fill="white"/>
+<rect x="4" y="28" width="4" height="4" fill="white"/>
+<rect x="16" y="28" width="4" height="4" fill="white"/>
+<rect x="20" y="28" width="4" height="4" fill="white"/>
+<path d="M24 32H32V36H24V32Z" fill="#A88DCE"/>
+<rect x="32" y="28" width="4" height="4" fill="white"/>
+<rect y="28" width="4" height="4" fill="white"/>
+<rect x="36" y="28" width="4" height="4" fill="white"/>
+<rect x="8" y="36" width="24" height="4" fill="#52338C"/>
+<rect x="8" y="32" width="16" height="4" fill="white"/>
+<path d="M0 28H8V36H0V28Z" fill="#A88DCE"/>
+<path d="M8 28V32H16V28H8Z" fill="#D5C9E9"/>
+<path d="M16 28V32H24V28H16Z" fill="#A88DCE"/>
+<path d="M24 28V32H32V28H24Z" fill="#D5C9E9"/>
+<path d="M24 0V4H32V0H24Z" fill="#A88DCE"/>
+<path d="M8 0V4H16V0H8Z" fill="#A88DCE"/>
+<path d="M32 28H40V36H32V28Z" fill="#A88DCE"/>
+<path d="M16 20H12V28H16V20Z" fill="#0A0524"/>
+<rect x="14" y="22" width="2" height="2" fill="white"/>
+<path d="M32 20H28V28H32V20Z" fill="#0A0524"/>
+<rect x="30" y="22" width="2" height="2" fill="white"/>
+</svg>

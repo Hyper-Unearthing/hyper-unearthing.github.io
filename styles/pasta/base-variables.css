@@ -1,0 +1,106 @@
+:root {
+  --bold-font-weight: 700;
+  --semi-bold-font-weight: 600;
+  --regular-font-weight: 400;
+  --font-family: outfit, sans-serif;
+
+  /* body fonts */
+  --body-font-size: 18px;
+  --body-font-weight: 400;
+  --body-line-height: 1.5;
+
+  /* button fonts */
+  --button-font-size: 16px;
+  --button-font-weight: var(--bold-font-weight);
+  --cta-button-font-size: var(--body-font-size);
+
+  /* heading fonts */
+  --h1-font-size: 36px;
+  --heading-ration: 1.618;
+  --heading-font-weight: var(--bold-font-weight);
+  --h2-font-size: calc(var(--h1-font-size) / var(--heading-ration));
+  --h3-font-size: calc(var(--h2-font-size) / var(--heading-ration));
+  --h4-font-size: calc(var(--h3-font-size) / var(--heading-ration));
+  --h5-font-size: calc(var(--h4-font-size) / var(--heading-ration));
+
+  /* accents */
+  --stripes-height: 6px;
+
+  /* navigation */
+  --navigation-height: 100px;
+  --navigation-logo-height: 40px;
+  --navigation-bottom-padding: 8px;
+  --navigation-horizontal-padding: 140px;
+  --navigation-top-padding: calc(var(--navigation-height) - var(--navigation-bottom-padding) - var(--navigation-logo-height));
+  --navigation-item-font-size: 16px;
+  --navigation-item-font-weight: var(--bold-font-weight);
+  --navigation-children-gap: 32px;
+
+  /* page */
+  --page-gutters: 140px;
+  --page-top-padding: 80px;
+  --footer-padding: 40px;
+
+  /* button padding */
+  --button-padding: 10px 16px;
+  --cta-button-padding: 15px 24px;
+  --button-border-radius: 4px;
+  --button-text-icon-gutter: 6px;
+
+  /* table */
+  --table-header-font-size: 16px;
+  --table-heading-padding: 32px 8px 8px;
+  --table-child-row-indent: 60px;
+  --table-images-border-radius: 8px;
+  --table-body-cell-padding: 16px 8px;
+
+  /* toast */
+  --toast-font-size: 16px;
+  --toast-padding: 20px 24px;
+  --toast-height-from-top: calc(var(--navigation-height) / 2);
+  --toast-gutters: var(--page-gutters);
+  --toast-border-radius: 4px;
+  --toast-icon-margin: 16px;
+
+  /* tabs */
+  --tabs-item-padding: 14px 40px 14px 16px;
+  --tabs-border-radius: 4px;
+
+  /* banner */
+  --banner-padding: var(--toast-padding);
+  --banner-font-size: var(--toast-font-size);
+  --banner-border-radius: var(--toast-border-radius);
+  --banner-icon-margin: var(--toast-icon-margin);
+  --banner-icon-size: 24px;
+
+  /* input error messages */
+  --field-errors-message-border-radius: 4px;
+  --field-errors-message-padding: 8px 16px;
+  --field-errors-message-font-size: 16px;
+  --field-errors-message-line-height: 20px;
+  --field-errors-caret-offset: 8px;
+  --field-errors-caret-bottom: 10px;
+  --field-errors-caret-size: 6px;
+  --field-errors-caret-margin-left: -5px;
+
+  /* dashboard onboarding */
+  --onboarding-page-content-gap: 32px;
+  --onboarding-steps-max-width: 600px;
+  --onboarding-step-gap: 24px;
+  --onboarding-step-progress-height: 100%;
+  --onboarding-step-progress-width: 1px;
+  --onboarding-step-progress-dot-size: 10px;
+  --onboarding-step-title-line-height: 24px;
+  --onboarding-step-title-font-size: 18px;
+  --onboarding-step-number-font-size: 16px;
+  --onboarding-step-description-font-size: 16px;
+  --onboarding-step-description-line-height: 24px;
+  --onboarding-step-title-half-size: calc(var(--onboarding-step-title-line-height) / 2);
+  --onboarding-step-dot-half-size: calc(var(--onboarding-step-progress-dot-size) / 2);
+  --onboarding-step-progress-indicator-offset: calc(var(--onboarding-step-title-half-size) - var(--onboarding-step-dot-half-size));
+  --onboarding-step-progress-indicator-left-margin: calc(var(--onboarding-step-dot-half-size) - var(--onboarding-step-progress-width));
+  --onboarding-step-content-gap: 8px;
+  --onboarding-step-content-padding: 0 0 32px 0;
+  --onboarding-step-actions-gap: 16px;
+  --onboarding-step-actions-margin: 16px 0 0 0;
+}
