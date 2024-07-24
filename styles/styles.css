@@ -1,0 +1,36 @@
+@import url("pasta/reset.css");
+@import url("pasta/colours.css");
+@import url("pasta/dark.css");
+@import url("pasta/base-variables.css");
+@import url("pasta/typography.css");
+@import url("pasta/navigation.css");
+@import url("pasta/button.css");
+@import url("pasta/field-errors.css");
+
+/* variable orverides */
+:root {
+  --navigation-bottom-padding: 18px;
+  --field-errors-message-padding: 16px 32px;
+}
+
+.navigation {
+  --error-message-background-color: #242C5B;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--royal-900);
+}
+
+.navigation__left {
+  flex-grow: 1;
+}
+
+.navigation__right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}

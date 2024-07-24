@@ -1,0 +1,109 @@
+/* put button here because it did not use this font family for some reason */
+body,
+button {
+  font-size: var(--body-font-size);
+  font-family: var(--font-family);
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--heading-font-weight);
+  margin-top: 0;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+button,
+a.button {
+  color: var(--button-foreground-color);
+  font-size: var(--button-font-size);
+  /* Got size from figma login screren */
+  font-weight: var(--button-font-weight);
+  /* competes with bootstrap reboot */
+  text-decoration: none;
+  line-height: 24px;
+}
+
+.button.cta {
+  font-size: var(--cta-button-font-size);
+}
+
+.button.secondary {
+  color: var(--button-secondary-font-color);
+}
+
+a {
+  color: var(--body-link-color);
+}
+
+.dark {
+  color: var(--body-font-color);
+}
+
+.application .ember-power-select-selected-item,
+.application .ember-power-select-trigger {
+  color: var(--input-font-color);
+}
+
+th {
+  font-size: var(--table-header-font-size);
+  color: var(--table-header-font-color);
+  font-weight: 300;
+}
+
+table,
+table .button {
+  font-size: var(--table-header-font-size);
+  font-weight: var(--regular-font-weight);
+}
+
+.table-row__primary-column {
+  font-weight: var(--bold-font-weight);
+}
+
+.child-row .table-row__primary-column {
+  font-weight: var(--semi-bold-font-weight);
+}
+
+.authentication-layout input {
+  color: var(--authentication-input-font-color);
+}
+
+.banner {
+  color: var(--banner-font-color);
+  font-size: var(--banner-font-size);
+}
+
+.banner a {
+  color: var(--banner-font-color);
+  font-size: var(--banner-font-size);
+}
+
+.field-errors__message-bubble {
+  font-size: var(--field-errors-message-font-size);
+  line-height: var(--field-errors-message-line-height);
+}
+
+.onboarding-steps__step-number {
+  font-size: var(--onboarding-step-number-font-size);
+  line-height: var(--onboarding-step-title-line-height);
+}
+
+.onboarding-steps__step-title {
+  line-height: var(--onboarding-step-title-line-height);
+  font-size: var(--onboarding-step-title-font-size);
+  font-weight: 700;
+}
+
+.onboarding-steps__step-description {
+  font-size: var(--onboarding-step-description-font-size);
+  line-height: var(--onboarding-step-description-line-height);
+}

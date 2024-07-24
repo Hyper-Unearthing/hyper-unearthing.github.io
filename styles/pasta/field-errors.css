@@ -1,0 +1,25 @@
+.field-errors {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--field-errors-caret-offset);
+}
+
+.field-errors__message-bubble {
+  position: relative;
+  background-color: var(--error-message-background-color);
+  border-radius: var(--field-errors-message-border-radius);
+  padding: var(--field-errors-message-padding);
+}
+
+.field-errors__message-bubble::before {
+  content: "";
+  position: absolute;
+  bottom: var(--field-errors-caret-bottom);
+  left: 0;
+  width: 0;
+  height: 0;
+  border: var(--field-errors-caret-size) solid transparent;
+  border-right-color: var(--error-message-background-color);
+  border-left: 0;
+  margin-left: var(--field-errors-caret-margin-left);
+}

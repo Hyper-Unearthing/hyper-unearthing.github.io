@@ -1,0 +1,23 @@
+.navigation {
+  width: 100%;
+  background-color: var(--navigation-background);
+  display: flex;
+  align-items: flex-end;
+  padding: var(--navigation-top-padding) var(--navigation-horizontal-padding)
+    var(--navigation-bottom-padding);
+  gap: var(--navigation-children-gap);
+}
+
+.navigation .logo {
+  height: var(--navigation-logo-height);
+}
+
+.navigation ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 0;
+  align-items: center;
+  height: 100%;
+  gap: var(--navigation-children-gap);
+}
