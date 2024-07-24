@@ -6,6 +6,7 @@
 @import url("pasta/navigation.css");
 @import url("pasta/button.css");
 @import url("pasta/field-errors.css");
+@import url("pasta/stripes.css");
 
 /* variable overrides */
 :root {
@@ -57,7 +58,10 @@ a {
 
 .multi-section {
   display: flex;
-  --section-padding: 0 10%;
+}
+
+.multi-section section {
+    padding: 0 160px;
 }
 
 section a {
@@ -78,11 +82,13 @@ section {
   gap: var(--section-spacing);;
   height: calc(90vh - 100px);
   align-items: center;
-  padding: var(--section-padding);
+  justify-content: center;
+  width:100%
 }
 
 section .content {
   display: flex;
   flex-direction: column;
   gap: var(--section-spacing);
+  max-width: 860px;
 }

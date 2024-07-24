@@ -1,0 +1,14 @@
+.stripes {
+  bottom: calc(var(--stripes-height) * -1);
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: var(--stripes-height);
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--stripes-color) 10px,
+    var(--stripes-color) 11px,
+    transparent 10px,
+    transparent 15px
+  );
+}
