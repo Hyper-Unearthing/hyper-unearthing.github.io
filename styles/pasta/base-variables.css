@@ -5,17 +5,17 @@
   --font-family: outfit, sans-serif;
 
   /* body fonts */
-  --body-font-size: 18px;
+  --body-font-size: 1.2rem;
   --body-font-weight: 400;
-  --body-line-height: 1.5;
+  --body-line-height: 1.5rem;
 
   /* button fonts */
-  --button-font-size: 16px;
+  --button-font-size: 1rem;
   --button-font-weight: var(--bold-font-weight);
   --cta-button-font-size: var(--body-font-size);
 
   /* heading fonts */
-  --h1-font-size: 36px;
+  --h1-font-size: 2.25rem;
   --heading-ration: 1.618;
   --heading-font-weight: var(--bold-font-weight);
   --h2-font-size: calc(var(--h1-font-size) / var(--heading-ration));
@@ -32,7 +32,7 @@
   --navigation-bottom-padding: 8px;
   --navigation-horizontal-padding: 140px;
   --navigation-top-padding: calc(var(--navigation-height) - var(--navigation-bottom-padding) - var(--navigation-logo-height));
-  --navigation-item-font-size: 16px;
+  --navigation-item-font-size: 1rem;
   --navigation-item-font-weight: var(--bold-font-weight);
   --navigation-children-gap: 32px;
 
@@ -48,14 +48,14 @@
   --button-text-icon-gutter: 6px;
 
   /* table */
-  --table-header-font-size: 16px;
+  --table-header-font-size: 1rem;
   --table-heading-padding: 32px 8px 8px;
   --table-child-row-indent: 60px;
   --table-images-border-radius: 8px;
   --table-body-cell-padding: 16px 8px;
 
   /* toast */
-  --toast-font-size: 16px;
+  --toast-font-size: 1rem;
   --toast-padding: 20px 24px;
   --toast-height-from-top: calc(var(--navigation-height) / 2);
   --toast-gutters: var(--page-gutters);
@@ -76,7 +76,7 @@
   /* input error messages */
   --field-errors-message-border-radius: 4px;
   --field-errors-message-padding: 8px 16px;
-  --field-errors-message-font-size: 16px;
+  --field-errors-message-font-size: 1rem;
   --field-errors-message-line-height: 20px;
   --field-errors-caret-offset: 8px;
   --field-errors-caret-bottom: 10px;
@@ -91,9 +91,9 @@
   --onboarding-step-progress-width: 1px;
   --onboarding-step-progress-dot-size: 10px;
   --onboarding-step-title-line-height: 24px;
-  --onboarding-step-title-font-size: 18px;
-  --onboarding-step-number-font-size: 16px;
-  --onboarding-step-description-font-size: 16px;
+  --onboarding-step-title-font-size: 1.2rem;
+  --onboarding-step-number-font-size: 1rem;
+  --onboarding-step-description-font-size: 1rem;
   --onboarding-step-description-line-height: 24px;
   --onboarding-step-title-half-size: calc(var(--onboarding-step-title-line-height) / 2);
   --onboarding-step-dot-half-size: calc(var(--onboarding-step-progress-dot-size) / 2);
