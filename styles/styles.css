@@ -26,6 +26,11 @@
   --section-background-color: var(--royal-900);
 }
 
+.hero__image {
+  width: 140px;
+  height: 140px;
+}
+
 .old-way__section {
   --section-background-color: var(--royal-800);
 }
@@ -73,7 +78,8 @@ section h5 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
 }
 
 section {
@@ -81,7 +87,7 @@ section {
   display: flex;
   gap: var(--section-spacing);
   ;
-  height: calc(90vh - 100px);
+  height: 90vh;
   align-items: center;
   justify-content: center;
   width: 100%
@@ -95,20 +101,52 @@ section .content {
 }
 
 @media (max-width: 980px) {
+  :root {
+    --h1-font-size: 1.5rem;
+    --navigation-height: 80px;
+  }
+
   .navigation {
-    --navigation-horizontal-padding: 10px;
+    --navigation-horizontal-padding: 16px;
+    gap: 16px;
+  }
+
+  .field-errors__message-bubble {
+    display: none;
+  }
+
+  .navigation__right a:first-child {
+    display: none;
+  }
+
+  .hero {
+    --section-spacing: 20px;
+  }
+
+  .hero__image {
+    height: 64px;
+    width: 64px;
+  }
+
+  .content {
+    padding: 0 32px;
   }
 
   section {
     flex-direction: column;
+  height: 70vh;
   }
 
   .multi-section {
     display: flex;
     flex-direction: column;
   }
+
   .multi-section section {
       padding: 0;
   }
-  /* .navigation__left .field-errors{ display: none;} */
+
+  .new-way__section .hero__image {
+    display: none;
+  }
 }
