@@ -7,22 +7,42 @@
 @import url("pasta/button.css");
 @import url("pasta/field-errors.css");
 
-/* variable orverides */
+/* variable overrides */
 :root {
   --navigation-bottom-padding: 18px;
   --field-errors-message-padding: 16px 32px;
+  --section-spacing: 24px;
+  --section-padding: 0 25%;
+  
 }
 
 .navigation {
   --error-message-background-color: #242C5B;
 }
 
-a {
-  text-decoration: none;
+.hero {
+  --section-spacing: 40px;
+  --section-background-color: var(--royal-900);
 }
 
-body {
-  background-color: var(--royal-900);
+.old-way__section {
+  --section-background-color: var(--royal-800);
+}
+
+.new-way__section {
+  --section-background-color: var(--royal-600);
+}
+
+.manager-benefit__section {
+  --section-background-color: var(--royal-500);
+}
+
+.developer-benefit__section {
+  --section-background-color: var(--royal-400);
+}
+
+a {
+  text-decoration: none;
 }
 
 .navigation__left {
@@ -33,4 +53,36 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.multi-section {
+  display: flex;
+  --section-padding: 0 10%;
+}
+
+section a {
+  width: fit-content;
+}
+
+section h5{
+  font-weight: var(--regular-font-weight);
+}
+
+p {
+  font-size: 24;
+}
+
+section {
+  background-color: var(--section-background-color);
+  display: flex;
+  gap: var(--section-spacing);;
+  height: calc(90vh - 100px);
+  align-items: center;
+  padding: var(--section-padding);
+}
+
+section .content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-spacing);
 }
