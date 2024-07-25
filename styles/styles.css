@@ -14,9 +14,12 @@
   --navigation-bottom-padding: 18px;
   --field-errors-message-padding: 16px 32px;
   --section-spacing: 24px;
-  --section-padding: 0 25%;
+  --section-content-max-width: 1130px;
+  --section-min-height: 800px;
+  --section-heading-padding: 110px 0 0 0;
+  --section-padding-x: 24px;
+  --section-padding: 0 var(--section-padding-x);
   --body-line-height: 1.8rem;
-
 }
 
 .navigation {
@@ -42,12 +45,7 @@
 
 .developer-benefit__section {
   --section-background-color: #483488;
-}
-
-.version {
-  font-size: 12px;
-  text-align: center;
-  color: #2a2a2a;
+  flex-grow: 1;
 }
 
 a {
@@ -64,18 +62,8 @@ a {
   gap: 40px;
 }
 
-.hero {
-  max-height: 720px;
-  height: 100%;
-  padding: 24px 0;
-}
-
 .multi-section {
   display: flex;
-}
-
-.multi-section section {
-  padding: 0 5%;
 }
 
 section a {
@@ -119,7 +107,6 @@ section .content {
 }
 
 .hero__image img {
-  height: 100px;
   width: 100px;
 }
 
@@ -128,15 +115,26 @@ section .content {
   justify-content: center;
   background-color: var(--section-background-color);
   flex-direction: column;
-  padding: 10% 15%;
-  min-height: 720px;
 }
 
 .full_page_section__content {
   display: flex;
   flex-direction: row;
   gap: var(--section-spacing);
-  height: 100%
+  max-width: var(--section-content-max-width);
+}
+
+.hero,
+.multi-section,
+.full_page_section {
+  min-height: var(--section-min-height);
+}
+
+.hero,
+.manager-benefit__section,
+.developer-benefit__section,
+.full_page_section {
+  padding: var(--section-padding);
 }
 
 .hero {
@@ -144,16 +142,7 @@ section .content {
   justify-content: center;
 }
 
-.old-way {
-  max-height: 750px;
-  /* Reset padding from full_page_section */
-  /* Probably can kill padding from parent itself */
-  padding: 0;
-}
-
-.old-way .full_page_section__content {
-  /* Approximated from figma */
-  max-width: 1130px;
+.full_page_section__content {
   align-self: center;
 }
 
@@ -166,8 +155,8 @@ section .content {
 .manager-benefit__section h5,
 .developer-benefit__section h5,
 .full_page_section__heading {
-  padding: 110px 24px 24px;
-  max-width: 1130px;
+  max-width: var(--section-content-max-width);
+  padding: var(--section-heading-padding);
   align-self: center;
   width: 100%;
   font-weight: 700;
@@ -190,7 +179,6 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5%;
 }
 
 .mobile-name {
@@ -228,6 +216,7 @@ li {
   flex-direction: column;
   gap: 48px;
   width: 100%;
+  max-width: calc(100vw - calc(var(--section-padding-x) * 2));
 }
 
 .feature-display p {
@@ -249,6 +238,7 @@ li {
   :root {
     --h1-font-size: 1.5rem;
     --navigation-height: 80px;
+    --section-heading-padding: 64px 0 0 0;
   }
 
   .screenshot {
@@ -281,26 +271,8 @@ li {
     width: 64px;
   }
 
-  .full_page_section {
-    padding:0;
-
-  }
-
-  .full_page_section {
-    padding: 5%;
-  }
-
-  .full_page_section__heading {
-    padding: 24px;
-  }
-
   .full_page_section__content {
     flex-direction: column;
-    height: fit-content;;
-  }
-
-  .content {
-    padding: 0 32px;
   }
 
   section {
@@ -310,9 +282,5 @@ li {
   .multi-section {
     display: flex;
     flex-direction: column;
-  }
-
-  .multi-section section {
-    padding: 5%;
   }
 }
