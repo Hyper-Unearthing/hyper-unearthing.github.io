@@ -59,7 +59,8 @@ a {
 }
 
 .hero {
-  min-height: 70vh;
+  max-height: 720px;
+  height: 100%;
   padding: 24px 0;
 }
 
