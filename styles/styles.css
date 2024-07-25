@@ -29,19 +29,19 @@
 }
 
 .old-way {
-  --section-background-color: var(--royal-800);
+  --section-background-color: #291D50;
 }
 
 .new-way {
-  --section-background-color: var(--royal-600);
+  --section-background-color: var(--royal-900);
 }
 
 .manager-benefit__section {
-  --section-background-color: var(--royal-500);
+  --section-background-color: #291D50;;
 }
 
 .developer-benefit__section {
-  --section-background-color: var(--royal-400);
+  --section-background-color: #483488;
 }
 
 a {
@@ -63,7 +63,7 @@ a {
 }
 
 .multi-section section {
-  padding: 0 160px;
+  padding: 0 5%;
 }
 
 section a {
@@ -148,7 +148,16 @@ section {
   margin-bottom: 5%;
 }
 
+li {
+  list-style: inside;
+  line-height: 3rem;
+}
 
+.multi-section section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 @media (max-width: 980px) {
   :root {
     --h1-font-size: 1.5rem;
