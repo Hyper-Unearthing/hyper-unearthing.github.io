@@ -213,7 +213,6 @@ li {
 
 .screenshot {
   display: flex;
-  border: transparent 1px solid;
   border-radius: 8px;
   overflow: scroll;
 }
