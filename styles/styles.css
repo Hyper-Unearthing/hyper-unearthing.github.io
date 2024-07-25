@@ -14,7 +14,6 @@
   --navigation-bottom-padding: 18px;
   --field-errors-message-padding: 16px 32px;
   --section-spacing: 24px;
-  --section-padding: 0 25%;
   --body-line-height: 1.8rem;
 
 }
@@ -67,7 +66,7 @@ a {
 .hero {
   /* max-height: 720px; */
   /* height: 100%; */
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .multi-section {
@@ -146,7 +145,7 @@ section .content {
   /* max-height: 750px; */
   /* Reset padding from full_page_section */
   /* Probably can kill padding from parent itself */
-  padding: 0;
+  /* padding: 0; */
 }
 
 .old-way .full_page_section__content {
@@ -164,7 +163,7 @@ section .content {
 .manager-benefit__section h5,
 .developer-benefit__section h5,
 .full_page_section__heading {
-  padding: 110px 24px 24px;
+  /* padding: 110px 24px 24px; */
   max-width: 1130px;
   align-self: center;
   width: 100%;
@@ -280,7 +279,7 @@ li {
   }
 
   .full_page_section {
-    padding:0;
+    /* padding:0; */
 
   }
 
@@ -289,7 +288,7 @@ li {
   }
 
   .full_page_section__heading {
-    padding: 24px;
+    /* padding: 24px; */
   }
 
   .full_page_section__content {
@@ -298,7 +297,7 @@ li {
   }
 
   .content {
-    padding: 0 32px;
+    /* padding: 0 32px; */
   }
 
   section {
