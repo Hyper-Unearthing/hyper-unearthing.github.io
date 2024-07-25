@@ -17,7 +17,8 @@
   --section-content-max-width: 1130px;
   --section-min-height: 800px;
   --section-heading-padding: 110px 0 0 0;
-  --section-padding: 0 24px;
+  --section-padding-x: 24px;
+  --section-padding: 0 var(--section-padding-x);
   --body-line-height: 1.8rem;
 }
 
@@ -44,6 +45,7 @@
 
 .developer-benefit__section {
   --section-background-color: #483488;
+  flex-grow: 1;
 }
 
 a {
@@ -140,7 +142,7 @@ section .content {
   justify-content: center;
 }
 
-.old-way .full_page_section__content {
+.full_page_section__content {
   align-self: center;
 }
 
@@ -214,6 +216,7 @@ li {
   flex-direction: column;
   gap: 48px;
   width: 100%;
+  max-width: calc(100vw - calc(var(--section-padding-x) * 2));
 }
 
 .feature-display p {
@@ -235,6 +238,7 @@ li {
   :root {
     --h1-font-size: 1.5rem;
     --navigation-height: 80px;
+    --section-heading-padding: 64px 0 0 0;
   }
 
   .screenshot {
