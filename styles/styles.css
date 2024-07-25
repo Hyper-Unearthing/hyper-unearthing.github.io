@@ -150,14 +150,16 @@ section {
 
 li {
   list-style: inside;
-  line-height: 3rem;
+  margin-bottom: 2rem;
 }
 
 .multi-section section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 5%;
 }
+
 @media (max-width: 980px) {
   :root {
     --h1-font-size: 1.5rem;
