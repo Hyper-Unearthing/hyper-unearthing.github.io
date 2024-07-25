@@ -58,6 +58,11 @@ a {
   gap: 40px;
 }
 
+.hero {
+  min-height: 70vh;
+  padding: 24px 0;
+}
+
 .multi-section {
   display: flex;
 }
@@ -83,7 +88,6 @@ section {
   background-color: var(--section-background-color);
   display: flex;
   gap: var(--section-spacing);
-  height: 90vh;
   width: 100%
 }
 
@@ -101,9 +105,10 @@ section .content {
   gap: 40px;
 }
 
-.chat-apps{
+.chat-apps {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 
 .hero__image img {
@@ -111,25 +116,21 @@ section .content {
   width: 100px;
 }
 
-section {
-  height: 70vh;
-}
-
 .full_page_section {
-    display:flex;
-    justify-content: center;
-    background-color: var(--section-background-color);
-    flex-direction: column;
-    padding: 10% 15%;
-    min-height: 720px;
-    height: 100%;
+  display:flex;
+  justify-content: center;
+  background-color: var(--section-background-color);
+  flex-direction: column;
+  padding: 10% 15%;
+  min-height: 720px;
+  height: 100%;
 }
 
 .full_page_section__content {
-    display: flex;
-    flex-direction: row;
-    gap: var(--section-spacing);
-    height: 100%
+  display: flex;
+  flex-direction: row;
+  gap: var(--section-spacing);
+  height: 100%
 }
 
 .hero {
@@ -156,6 +157,8 @@ section {
   max-width: 386px;
 }
 
+.manager-benefit__section h5,
+.developer-benefit__section h5,
 .full_page_section__heading {
   padding: 110px 24px 24px;
   max-width: 1130px;
@@ -216,6 +219,11 @@ li {
     --section-spacing: 20px;
   }
 
+  .hero__image img {
+    height: 64px;
+    width: 64px;
+  }
+
   .full_page_section {
     padding:0;
 
@@ -233,14 +241,13 @@ li {
     flex-direction: column;
     height: fit-content;;
   }
-            
+
   .content {
     padding: 0 32px;
   }
 
   section {
     flex-direction: column;
-    height: 70vh;
   }
 
   .multi-section {
@@ -249,6 +256,6 @@ li {
   }
 
   .multi-section section {
-      padding: 5%;
+    padding: 5%;
   }
 }
