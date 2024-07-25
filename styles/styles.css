@@ -44,6 +44,12 @@
   --section-background-color: #483488;
 }
 
+.version {
+  font-size: 12px;
+  text-align: center;
+  color: #2a2a2a;
+}
+
 a {
   text-decoration: none;
 }
