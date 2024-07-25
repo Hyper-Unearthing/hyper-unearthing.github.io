@@ -138,14 +138,38 @@ section {
 }
 
 .old-way {
-  padding-bottom: 0;
-  max-height: 750px
+  max-height: 750px;
+  /* Reset padding from full_page_section */
+  /* Probably can kill padding from parent itself */
+  padding: 0;
+}
+
+.old-way .full_page_section__content {
+  /* Approximated from figma */
+  max-width: 1130px;
+  align-self: center;
+}
+
+.old-way .full_page_section__content div:not(:has(> img)) {
+  align-self: flex-start;
+  /* Approximated from figma */
+  max-width: 386px;
+}
+
+.full_page_section__heading {
+  padding: 110px 24px 24px;
+  max-width: 1130px;
+  align-self: center;
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
 }
 
 .old-way img {
-  max-height:360px;
-  align-self: end;
-  margin-bottom: 5%;
+  width: 100%;
+  height: 100%;
 }
 
 li {
@@ -197,13 +221,12 @@ li {
 
   }
 
-  .old-way img {
-    align-self: inherit;
-    margin-bottom: 0;
-  }
-
   .full_page_section {
     padding: 5%;
+  }
+
+  .full_page_section__heading {
+    padding: 24px;
   }
 
   .full_page_section__content {
