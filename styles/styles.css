@@ -130,7 +130,6 @@ section .content {
   flex-direction: column;
   padding: 10% 15%;
   min-height: 720px;
-  height: 100%;
 }
 
 .full_page_section__content {
@@ -199,10 +198,62 @@ li {
   align-self: center;
 }
 
+
+.github-screenshot {
+  height: 400px;
+}
+
+.slack-screenshot {
+  height: 200px;
+}
+
+.graph-screenshot {
+  height: 300px;
+}
+
+.screenshot {
+  display: flex;
+  border: transparent 1px solid;
+  border-radius: 8px;
+  overflow: scroll;
+}
+
+.screenshot img{
+  border-radius: 8px;
+  height: 100%;
+  object-fit: contain;
+}
+
+.feature-display {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+}
+
+.feature-display p {
+  margin-bottom: 24px;
+}
+
+.new-way {
+  padding: 0 32px;
+  padding-bottom: 32px;
+}
+
+.feature-display--right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
 @media (max-width: 980px) {
   :root {
     --h1-font-size: 1.5rem;
     --navigation-height: 80px;
+  }
+
+  .screenshot {
+    width: 100%;
   }
 
   .mobile-name {
