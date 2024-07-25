@@ -65,8 +65,8 @@ a {
 }
 
 .hero {
-  max-height: 720px;
-  height: 100%;
+  /* max-height: 720px; */
+  /* height: 100%; */
   padding: 24px 0;
 }
 
@@ -75,7 +75,7 @@ a {
 }
 
 .multi-section section {
-  padding: 0 5%;
+  /* padding: 0 5%; */
 }
 
 section a {
@@ -119,7 +119,7 @@ section .content {
 }
 
 .hero__image img {
-  height: 100px;
+  /* height: 100px; */
   width: 100px;
 }
 
@@ -128,15 +128,13 @@ section .content {
   justify-content: center;
   background-color: var(--section-background-color);
   flex-direction: column;
-  padding: 10% 15%;
-  min-height: 720px;
 }
 
 .full_page_section__content {
   display: flex;
   flex-direction: row;
   gap: var(--section-spacing);
-  height: 100%
+  /* height: 100% */
 }
 
 .hero {
@@ -145,7 +143,7 @@ section .content {
 }
 
 .old-way {
-  max-height: 750px;
+  /* max-height: 750px; */
   /* Reset padding from full_page_section */
   /* Probably can kill padding from parent itself */
   padding: 0;
@@ -190,7 +188,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5%;
+  /* padding: 5%; */
 }
 
 .mobile-name {
@@ -287,7 +285,7 @@ li {
   }
 
   .full_page_section {
-    padding: 5%;
+    /* padding: 5%; */
   }
 
   .full_page_section__heading {
@@ -296,7 +294,7 @@ li {
 
   .full_page_section__content {
     flex-direction: column;
-    height: fit-content;;
+    /* height: fit-content;; */
   }
 
   .content {
@@ -313,6 +311,6 @@ li {
   }
 
   .multi-section section {
-    padding: 5%;
+    /* padding: 5%; */
   }
 }
