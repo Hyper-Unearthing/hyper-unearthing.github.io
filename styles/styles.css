@@ -241,6 +241,11 @@ li {
     --section-heading-padding: 64px 0 0 0;
   }
 
+  .old-way img {
+    transform: rotate(70deg);
+    min-height: 400px;
+  }
+
   .screenshot {
     width: 100%;
   }
