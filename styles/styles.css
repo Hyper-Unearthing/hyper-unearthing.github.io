@@ -115,6 +115,7 @@ section .content {
   justify-content: center;
   background-color: var(--section-background-color);
   flex-direction: column;
+  padding-bottom: 32px;
 }
 
 .full_page_section__content {
