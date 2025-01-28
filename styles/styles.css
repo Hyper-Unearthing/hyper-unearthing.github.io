@@ -22,8 +22,35 @@
   --body-line-height: 1.8rem;
 }
 
+.post-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.post {
+  max-width: 860px;
+}
+
+.post h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 20px;
+}
+
+.post p {
+  margin-bottom: 10px;
+}
+
 .navigation {
-  --error-message-background-color: #242C5B;
+  --error-message-background-color: #242c5b;
+}
+
+.dark {
+  background-color: var(--royal-900);
 }
 
 .hero {
@@ -32,7 +59,7 @@
 }
 
 .old-way {
-  --section-background-color: #291D50;
+  --section-background-color: #291d50;
 }
 
 .new-way {
@@ -40,7 +67,7 @@
 }
 
 .manager-benefit__section {
-  --section-background-color: #291D50;;
+  --section-background-color: #291d50;
 }
 
 .developer-benefit__section {
@@ -83,7 +110,7 @@ section {
   background-color: var(--section-background-color);
   display: flex;
   gap: var(--section-spacing);
-  width: 100%
+  width: 100%;
 }
 
 section .content {
@@ -111,7 +138,7 @@ section .content {
 }
 
 .full_page_section {
-  display:flex;
+  display: flex;
   justify-content: center;
   background-color: var(--section-background-color);
   flex-direction: column;
@@ -186,7 +213,6 @@ li {
   align-self: center;
 }
 
-
 .github-screenshot {
   height: 400px;
 }
@@ -205,7 +231,7 @@ li {
   overflow: scroll;
 }
 
-.screenshot img{
+.screenshot img {
   border-radius: 8px;
   height: 100%;
   object-fit: contain;
