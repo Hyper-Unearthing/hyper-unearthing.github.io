@@ -18,6 +18,11 @@
   height: var(--button-font-size);
 }
 
+.button:disabled {
+  background-color: var(--button-disabled-background-color);
+  cursor: inherit;
+}
+
 .button.secondary {
   background-color: transparent;
   border: var(--button-secondary-border);

@@ -24,10 +24,8 @@ h1 {
 button,
 a.button {
   color: var(--button-foreground-color);
-  font-size: var(--button-font-size);
-  /* Got size from figma login screren */
-  font-weight: var(--button-font-weight);
-  /* competes with bootstrap reboot */
+  font-size: var(--button-font-size); /* Got size from figma login screren */
+  font-weight: var(--button-font-weight); /* competes with bootstrap reboot */
   text-decoration: none;
   line-height: 24px;
 }
@@ -44,13 +42,18 @@ a {
   color: var(--body-link-color);
 }
 
-.dark {
+body {
   color: var(--body-font-color);
 }
 
 .application .ember-power-select-selected-item,
 .application .ember-power-select-trigger {
   color: var(--input-font-color);
+}
+
+.ember-power-select-option,
+.ember-power-select-group-name {
+  color: var(--input-select-dropdown-font-color);
 }
 
 th {

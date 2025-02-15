@@ -141,7 +141,7 @@ table {
 
 /* MY MODIFICATIONS */
 th {
-  text-align: -webkit-match-parent;
+  text-align: inherit;
 }
 
 img,

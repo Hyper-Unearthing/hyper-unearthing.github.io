@@ -1,6 +1,5 @@
 @import url("pasta/reset.css");
 @import url("pasta/colours.css");
-@import url("pasta/dark.css");
 @import url("pasta/base-variables.css");
 @import url("pasta/typography.css");
 @import url("pasta/navigation.css");
@@ -48,7 +47,7 @@ h6 {
   --error-message-background-color: #242c5b;
 }
 
-.dark {
+body {
   background-color: var(--royal-900);
 }
 
