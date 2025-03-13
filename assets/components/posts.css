@@ -1,0 +1,22 @@
+.post-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.post {
+  max-width: 860px;
+}
+
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6 {
+  margin-bottom: 20px;
+}
+
+.post p {
+  margin-bottom: 10px;
+}
