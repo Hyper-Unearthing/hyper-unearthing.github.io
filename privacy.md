@@ -1,14 +1,8 @@
-<html>
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <link integrity="" rel="stylesheet" href="/styles/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>managerbot.dev Privacy Policy</title>
-  </head>
-  <body>
-    <pre style="word-wrap: break-word; white-space: pre-wrap;font-size: 13px">
+---
+title: privacy policy
+layout: post
+---
+
 # managerbot.dev Privacy Policy
 
 This privacy policy has been compiled to better serve those who are concerned with how their 'Personally identifiable information' (PII) is being used online. PII, as used in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
@@ -41,9 +35,9 @@ You can request to access, modify, or delete your data by sending your request t
 
 We may use the information we collect from you when you register, make a purchase, sign up for our newsletter, respond to a survey or marketing communication, surf the website, or use certain other site features in the following ways:
 
-* To personalize user's experience and to allow us to deliver the type of content and product offerings in which you are most interested.
-* To improve our website in order to better serve you.
-* To send periodic emails regarding your order or other products and services.
+- To personalize user's experience and to allow us to deliver the type of content and product offerings in which you are most interested.
+- To improve our website in order to better serve you.
+- To send periodic emails regarding your order or other products and services.
 
 ## How do we protect visitor information?
 
@@ -61,8 +55,8 @@ Yes. Cookies are small files that a site or its service provider transfers to yo
 
 ## We use cookies to:
 
-* Understand and save user's preferences for future visits.
-* Compile aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future. We may also use trusted third-party services that track this information on our behalf.
+- Understand and save user's preferences for future visits.
+- Compile aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future. We may also use trusted third-party services that track this information on our behalf.
 
 You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser (like Internet Explorer) settings. Each browser is a little different, so look at your browser's Help menu to learn the correct way to modify your cookies.
 
@@ -84,18 +78,17 @@ We do not include or offer third-party products or services on our website.
 
 Users can set preferences for how Google advertises to you using the Google Ad Settings page. Alternatively, you can opt out by visiting the Network Advertising initiative opt out page or permanently using the Google Analytics Opt Out Browser add on.
 
-
 ## GDPR
 
 We are committed to protecting your personal data and respecting your privacy rights in compliance with the General Data Protection Regulation (GDPR). This includes:
 
 Lawful Basis for Processing: We only collect and process your personal data when we have a lawful basis to do so, such as your consent, a contractual obligation, or a legitimate interest.
 
-*  Data Minimization: We collect only the minimum amount of personal data necessary to fulfill the purposes for which it is collected.
-* Data Security: We implement appropriate technical and organizational measures to ensure the security and confidentiality of your personal data.   
-* Data Subject Rights: We respect your rights under the GDPR, including the right to access, rectify, erase, restrict processing, data portability, and object to processing.   
-* Data Retention: We retain your personal data only for as long as necessary to fulfill the purposes for which it was collected or as required by law.   
-* Data Transfers: We ensure that any transfers of personal data to third countries or international organizations are carried out in accordance with the GDPR.
+- Data Minimization: We collect only the minimum amount of personal data necessary to fulfill the purposes for which it is collected.
+- Data Security: We implement appropriate technical and organizational measures to ensure the security and confidentiality of your personal data.
+- Data Subject Rights: We respect your rights under the GDPR, including the right to access, rectify, erase, restrict processing, data portability, and object to processing.
+- Data Retention: We retain your personal data only for as long as necessary to fulfill the purposes for which it was collected or as required by law.
+- Data Transfers: We ensure that any transfers of personal data to third countries or international organizations are carried out in accordance with the GDPR.
 
 ## California Online Privacy Protection Act
 
@@ -126,8 +119,8 @@ The Fair Information Practices Principles form the backbone of privacy law in th
 
 In order to be in line with Fair Information Practices we will take the following responsive action, should a data breach occur:
 
-* We will notify you via email within 7 business days
-* We will notify you via in-site notification within 7 business days
+- We will notify you via email within 7 business days
+- We will notify you via in-site notification within 7 business days
 
 We also agree to the Individual Redress Principle which requires that individuals have the right to legally pursue enforceable rights against data collectors and processors who fail to adhere to the law. This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or government agencies to investigate and/or prosecute non-compliance by data processors.
 
@@ -144,6 +137,3 @@ If at any time you would like to unsubscribe from receiving future emails, you c
 ## Contacting Us
 
 If there are any questions regarding this privacy policy you may contact us using the following email: support@unearthing.freshdesk.com
-    </pre>
-  </body>
-</html>
