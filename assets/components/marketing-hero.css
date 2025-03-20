@@ -1,0 +1,43 @@
+@media (max-width: 980px) {
+  :root {
+    --hero-content-align: left;
+    --integration-icon-size: 50px;
+    --arrow-location: 17px;
+  }
+}
+
+.hero__image {
+  height: var(--integration-icon-size, 100px);
+  width: var(--integration-icon-size, 100px);
+}
+
+.hero {
+  display: flex;
+  --section-background-color: var(--royal-900);
+  padding: var(
+    --hero-padding,
+    100px var(--hero-gutter) 100px var(--hero-gutter)
+  );
+  align-items: var(--hero-content-align, center);
+  justify-content: var(--hero-content-align);
+  flex-direction: column;
+  gap: var(--hero-content-gap, 64px);
+  text-align: var(--hero-content-align, center);
+}
+
+.hero .content h1 {
+  margin-bottom: var(--hero-content-gap, 64px);
+}
+
+.hero p {
+  align-items: var(--hero-content-align, center);
+  font: var(--hero-p-font);
+}
+
+.integrations {
+  display: flex;
+}
+
+.integrations .arrow-container {
+  top: var(--arrow-location, 40px);
+}

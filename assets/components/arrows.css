@@ -1,0 +1,77 @@
+:root {
+  --arrow-height: 18px;
+  --arrow-width: 100px;
+  --dash-density: 2px 1px;
+  --arrow-colour: linear-gradient(to right, var(--royal-800), transparent 50%);
+}
+
+.arrow-container {
+  position: relative;
+  width: var(--arrow-width);
+  height: var(--arrow-height);
+}
+
+.dashed-line {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  right: 20px;
+  height: 2px;
+  background: var(--arrow-colour);
+  background-size: var(--dash-density);
+  background-repeat: repeat-x;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow-left {
+  left: 15px;
+}
+
+.arrow-right {
+  right: 15px;
+}
+
+/* Dashed arrow lines */
+.arrow-left .line,
+.arrow-right .line {
+  width: calc(var(--arrow-height) / 2);
+  height: 1px;
+  background: var(--arrow-colour);
+  background-size: var(--dash-density);
+}
+
+/* Left arrow */
+.arrow-left .line:nth-child(1) {
+  transform: rotate(-45deg);
+  transform-origin: left center;
+  top: -8px;
+  left: 0;
+}
+
+.arrow-left .line:nth-child(2) {
+  transform: rotate(45deg);
+  transform-origin: left center;
+  top: 8px;
+  left: 0;
+}
+
+/* Right arrow */
+.arrow-right .line:nth-child(1) {
+  transform: rotate(45deg);
+  transform-origin: right center;
+  top: -8px;
+  right: 0;
+}
+
+.arrow-right .line:nth-child(2) {
+  transform: rotate(-45deg);
+  transform-origin: right center;
+  top: 8px;
+  right: 0;
+}

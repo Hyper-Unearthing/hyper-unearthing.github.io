@@ -1,6 +1,5 @@
 .navigation {
   width: 100%;
-  background-color: var(--navigation-background);
   display: flex;
   align-items: flex-end;
   padding: var(--navigation-top-padding) var(--navigation-horizontal-padding)

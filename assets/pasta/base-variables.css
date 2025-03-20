@@ -1,5 +1,6 @@
 :root {
   /* Font Weights */
+  --light-font-weight: 200;
   --bold-font-weight: 700;
   --semi-bold-font-weight: 600;
   --regular-font-weight: 400;

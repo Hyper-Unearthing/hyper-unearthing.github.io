@@ -1,0 +1,28 @@
+.navigation {
+  --error-message-background-color: #242c5b;
+}
+
+.navigation__left {
+  flex-grow: 1;
+}
+
+.navigation__right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (max-width: 980px) {
+  .navigation {
+    --navigation-horizontal-padding: 16px;
+    gap: 16px;
+  }
+
+  .navigation__right a:first-child {
+    display: none;
+  }
+}
+
+.mobile-name {
+  align-self: center;
+}
