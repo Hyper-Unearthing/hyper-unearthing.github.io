@@ -24,6 +24,6 @@
 }
 
 .button.secondary {
-  background-color: transparent;
+  background-color: var(--button-secondary-background, transparent);
   border: var(--button-secondary-border);
 }
