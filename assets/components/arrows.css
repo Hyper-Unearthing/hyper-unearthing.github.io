@@ -2,7 +2,7 @@
   --arrow-height: 18px;
   --arrow-width: 100px;
   --dash-density: 2px 1px;
-  --arrow-colour: linear-gradient(to right, var(--royal-800), transparent 50%);
+  --arrow-colour: linear-gradient(to right, var(--royal-700), transparent 50%);
 }
 
 .arrow-container {
