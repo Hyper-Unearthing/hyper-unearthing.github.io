@@ -4,7 +4,6 @@
 @import url("pasta/typography.css");
 @import url("pasta/navigation.css");
 @import url("pasta/button.css");
-@import url("pasta/field-errors.css");
 @import url("pasta/stripes.css");
 @import url("components/arrows.css");
 @import url("components/marketing-hero.css");
@@ -18,7 +17,9 @@
   --navigation-bottom-padding: 18px;
   --body-line-height: 1.8rem;
   --body-font-size: 1.5rem;
-
+  --button-secondary-background: #0a0524;
+  --cta-button-font-size: 1.25rem;
+  --cta-button-padding: 16px 24px;
   /* new variables  */
   --hero-gutter: 220px;
   --full-page-content-gutter: 140px;
@@ -33,9 +34,6 @@
   --ul-font: var(--light-font-weight) 20px var(--font-family);
   --hero-p-font: var(--regular-font-weight) var(--body-font-size)
     var(--font-family);
-}
-
-:root {
 }
 
 body {
