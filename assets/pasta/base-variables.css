@@ -1,9 +1,9 @@
 :root {
   /* Font Weights */
-  --light-font-weight: 200;
   --bold-font-weight: 700;
   --semi-bold-font-weight: 600;
   --regular-font-weight: 400;
+  --light-font-weight: 200;
 
   /* Font Family */
   --font-family: outfit, sans-serif;
@@ -14,32 +14,6 @@
   --body-line-height: 1.5rem;
   --body-font-color: light-dark(var(--white), var(--white));
   --body-link-color: light-dark(var(--aquafresh-500), var(--aquafresh-500));
-
-  /* Button Fonts */
-  --button-font-size: 1rem;
-  --button-font-weight: var(--bold-font-weight);
-  --cta-button-font-size: var(--body-font-size);
-  --button-padding: 10px 16px;
-  --cta-button-padding: 15px 24px;
-  --button-border-radius: 4px;
-  --button-text-icon-gutter: 6px;
-  --button-background-color: light-dark(
-    var(--aquafresh-500),
-    var(--aquafresh-500)
-  );
-  --button-disabled-background-color: light-dark(
-    var(--rainbow-500),
-    var(--rainbow-500)
-  );
-  --button-foreground-color: light-dark(
-    var(--body-font-color),
-    var(--body-font-color)
-  );
-  --button-secondary-font-color: light-dark(
-    var(--button-background-color),
-    var(--button-background-color)
-  );
-  --button-secondary-border: 2px solid var(--button-background-color);
 
   /* Headings */
   --h1-font-size: 2.25rem;
@@ -149,13 +123,6 @@
 
   /* Input Error Messages */
   --field-errors-message-border-radius: 4px;
-  --field-errors-message-padding: 8px 16px;
-  --field-errors-message-font-size: 1rem;
-  --field-errors-message-line-height: 20px;
-  --field-errors-caret-offset: 8px;
-  --field-errors-caret-bottom: 10px;
-  --field-errors-caret-size: 6px;
-  --field-errors-caret-margin-left: -5px;
 
   /* Dashboard Onboarding */
   --onboarding-page-content-gap: 32px;

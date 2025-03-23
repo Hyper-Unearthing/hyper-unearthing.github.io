@@ -1,10 +1,10 @@
 /* put button here because it did not use this font family for some reason */
-body,
-button {
+body {
   font-size: var(--body-font-size);
   font-family: var(--font-family);
   font-optical-sizing: auto;
   font-style: normal;
+  color: var(--body-font-color);
 }
 
 h1,
@@ -21,29 +21,8 @@ h1 {
   font-size: var(--h1-font-size);
 }
 
-button,
-a.button {
-  color: var(--button-foreground-color);
-  font-size: var(--button-font-size); /* Got size from figma login screren */
-  font-weight: var(--button-font-weight); /* competes with bootstrap reboot */
-  text-decoration: none;
-  line-height: 24px;
-}
-
-.button.cta {
-  font-size: var(--cta-button-font-size);
-}
-
-.button.secondary {
-  color: var(--button-secondary-font-color);
-}
-
 a {
   color: var(--body-link-color);
-}
-
-body {
-  color: var(--body-font-color);
 }
 
 .application .ember-power-select-selected-item,
