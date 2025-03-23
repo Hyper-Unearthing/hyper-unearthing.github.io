@@ -1,8 +1,25 @@
+:root {
+  --button-background-color: light-dark(
+    var(--aquafresh-500),
+    var(--aquafresh-500)
+  );
+  --button-secondary-font-color: light-dark(
+    var(--button-background-color),
+    var(--button-background-color)
+  );
+  --button-primary-font-color: light-dark(
+    var(--body-font-color),
+    var(--body-font-color)
+  );
+  --button-font-size: 1rem;
+  --button-text-icon-gutter: 6px;
+}
+
 .button {
   position: relative;
   background-color: var(--button-background-color);
-  padding: var(--button-padding);
-  border-radius: var(--button-border-radius);
+  padding: var(--button-padding, 10px 16px);
+  border-radius: var(--button-border-radius, 4px);
   border: transparent;
   display: flex;
   align-items: center;
@@ -10,8 +27,24 @@
   cursor: pointer;
 }
 
+button,
+a.button {
+  font-family: var(--font-family);
+  color: var(--button-primary-font-color);
+  font-size: var(--button-font-size); /* Got size from figma login screren */
+  font-weight: var(
+    --button-font-weight,
+    var(--bold-font-weight)
+  ); /* competes with bootstrap reboot */
+
+  text-decoration: none;
+  line-height: 24px;
+}
+
 .button.cta {
-  padding: var(--cta-button-padding);
+  padding: var(--cta-button-padding, 15px 24px);
+  font-size: var(--cta-button-font-size, var(--body-font-size));
+  width: fit-content;
 }
 
 .button svg {
@@ -19,11 +52,29 @@
 }
 
 .button:disabled {
-  background-color: var(--button-disabled-background-color);
+  background-color: var(
+    --button-disabled-background-color,
+    light-dark(var(--rainbow-500), var(--rainbow-500))
+  );
   cursor: inherit;
 }
 
 .button.secondary {
   background-color: var(--button-secondary-background, transparent);
-  border: var(--button-secondary-border);
+  border: var(
+    --button-secondary-border,
+    2px solid var(--button-background-color)
+  );
+  color: var(
+    --button-secondary-font-color,
+    light-dark(var(--button-background-color), var(--button-background-color))
+  );
+}
+
+.button__icon--right {
+  margin-left: var(--button-text-icon-gutter);
+}
+
+.button__icon--left {
+  margin-right: var(--button-text-icon-gutter);
 }
