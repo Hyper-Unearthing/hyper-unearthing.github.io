@@ -5,11 +5,15 @@
   padding: var(--full-page-section-padding, 100px 140px 100px 140px);
 }
 
+.colomnar-layout > * {
+  flex: 1;
+}
+
 .colomnar-layout h2 {
   margin-bottom: var(--benefits-section-heading-margin, 48px);
 }
 
-.colomnar-layout img {
+.colomnar-layout img:not(button img, a img) {
   margin-bottom: var(--benefits-section-image-margin, 64px);
 }
 

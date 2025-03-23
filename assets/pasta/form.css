@@ -1,0 +1,69 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.input-component {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Because form is flex, button needs to maintain content width */
+.button.cta {
+  width: fit-content;
+}
+
+.input-component--label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-component--label label {
+  font-weight: 700;
+}
+
+fieldset {
+  display: flex;
+  gap: 16px;
+}
+
+.input-component--input {
+  border: transparent;
+  border-radius: 4px;
+  padding: 16px;
+  font-size: 18px;
+  line-height: 24px;
+  width: 100%;
+  flex: 1;
+}
+
+.input-component,
+fieldset {
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-field,
+.form-fieldset {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.dashboard-form .input-component--input {
+  /* padding is broken on firefox this is following the power-select padding */
+  padding: 0 8px;
+  background: var(--input-background-color);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: white;
+  border: 1px solid var(--input-border-color);
+}
+
+/* hack to change the color of date picker icon */
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
