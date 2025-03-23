@@ -31,9 +31,6 @@
   text-align: var(--hero-content-align, center);
 }
 
-.hero .cta {
-  width: fit-content;
-}
 .hero .content h1 {
   margin-bottom: var(--hero-content-gap, 64px);
 }
