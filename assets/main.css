@@ -4,6 +4,7 @@
 @import url("pasta/typography.css");
 @import url("pasta/navigation.css");
 @import url("pasta/button.css");
+@import url("pasta/form.css");
 @import url("pasta/stripes.css");
 @import url("components/arrows.css");
 @import url("components/marketing-hero.css");
@@ -41,8 +42,12 @@ body {
 }
 
 .old-way,
-.colomnar-layout {
+.benefits {
   --section-background-color: #291d50;
+}
+
+.getting-started {
+  background-color: var(--royal-900);
 }
 
 .new-way {
