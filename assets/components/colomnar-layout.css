@@ -13,7 +13,7 @@
   margin-bottom: var(--benefits-section-heading-margin, 48px);
 }
 
-.colomnar-layout img {
+.colomnar-layout img:not(button img, a img) {
   margin-bottom: var(--benefits-section-image-margin, 64px);
 }
 
