@@ -1,19 +1,19 @@
-.benefits-section {
+.colomnar-layout {
   display: flex;
   gap: var(--benefits-section-gap, 80px);
   background-color: var(--section-background-color);
   padding: var(--full-page-section-padding, 100px 140px 100px 140px);
 }
 
-.benefits-section h2 {
+.colomnar-layout h2 {
   margin-bottom: var(--benefits-section-heading-margin, 48px);
 }
 
-.benefits-section img {
+.colomnar-layout img {
   margin-bottom: var(--benefits-section-image-margin, 64px);
 }
 
-.benefits-section p {
+.colomnar-layout p {
   margin-bottom: var(--benefits-section-paragraph-margin-bottom, 48px);
 }
 
@@ -27,6 +27,6 @@ li {
   margin-bottom: 2rem;
 }
 
-.benefits-section section {
+.colomnar-layout section {
   flex-direction: column;
 }
