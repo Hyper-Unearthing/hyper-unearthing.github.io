@@ -1,4 +1,4 @@
-.full_page_section {
+.full-width-layout {
   display: flex;
   align-items: var(--full-page-section-content-aligment, center);
   background-color: var(--section-background-color);
@@ -6,14 +6,14 @@
   flex-direction: column;
 }
 
-.full_page_section__content {
+.full-width-layout__content {
   display: flex;
   margin-left: calc(var(--hero-gutter) - var(--full-page-content-gutter));
   flex-direction: column;
   max-width: var(--section-content-max-width, 1130px);
 }
 
-.old-way .full_page_section__content p {
+.old-way .full-width-layout__content p {
   max-width: var(--old-way-copy-max-width, 60%);
 }
 
