@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <meta name="description" content="{{page.description}}" />
-    {% include lazy-load.html %} {% include posthog.html %}
+    {% include lazy-load.html %}
     <link integrity="" rel="stylesheet" href="/assets/main.css" />
   </head>
 
@@ -33,14 +33,11 @@
           class="button secondary"
         >
           Get Started
-          <img
-            src="/assets/images/heart.svg"
-            alt="illustration of a heart"
-            class="heart"
-          />
+          <img data-echo="/assets/images/heart.svg" alt="" class="heart" />
         </a>
       </div>
     </div>
     {{ content }}
   </body>
+  {% include posthog.html %}
 </html>
