@@ -63,12 +63,12 @@ layout: default
   </div>
   <img
     class="desktop"
-    src="/assets/images/squiggles.svg"
+    data-echo="/assets/images/squiggles.svg"
     alt="shows inneficiencies of team"
   />
   <img
     class="mobile"
-    src="/assets/images/squiggles-mobile.svg"
+    data-echo="/assets/images/squiggles-mobile.svg"
     alt="shows inneficiencies of team"
   />
 </section>
@@ -78,12 +78,12 @@ layout: default
   </div>
   <img
     class="desktop"
-    src="/assets/images/new-way.svg"
+    data-echo="/assets/images/new-way.svg"
     alt="shows improved workflow of team"
   />
   <img
     class="mobile"
-    src="/assets/images/new-way-mobile.svg"
+    data-echo="/assets/images/new-way-mobile.svg"
     alt="shows improved workflow of team"
   />
   <div class="full-width-layout__content">
@@ -100,7 +100,7 @@ layout: default
   <section>
     <h2>Benefits for managers</h2>
     <img
-      src="/assets/images/happy-graph.svg"
+      data-echo="/assets/images/happy-graph.svg"
       width="105"
       heigh="105"
       alt="graph that is heading in positive direction"
@@ -121,7 +121,7 @@ layout: default
   <section>
     <h2>Benefits for developers</h2>
     <img
-      src="/assets/images/happy-dev.svg"
+      data-echo="/assets/images/happy-dev.svg"
       width="76.5"
       heigh="105"
       alt="developer fully in the zone levitating"
@@ -150,7 +150,10 @@ layout: default
   </section>
   <section>
     <h2>Invite request form</h2>
-    <form>
+    <form
+      action="https://app.managerbot.dev/authentication/register"
+      method="GET"
+    >
       <div class="form-field">
         <fieldset>
           <div class="input-component">
@@ -159,6 +162,7 @@ layout: default
             </div>
             <div class="input-component__field-with-errors">
               <input
+                name="firstName"
                 aria-label="First name"
                 class="input-component--input"
                 type="text"
@@ -172,6 +176,7 @@ layout: default
             </div>
             <div class="input-component__field-with-errors">
               <input
+                name="lastName"
                 aria-label="Last name"
                 class="input-component--input"
                 type="text"
@@ -188,6 +193,7 @@ layout: default
           </div>
           <div class="input-component__field-with-errors">
             <input
+              name="email"
               aria-label="Email address"
               class="input-component--input"
               type="text"
@@ -203,6 +209,7 @@ layout: default
           </div>
           <div class="input-component__field-with-errors">
             <input
+              name="Company Name"
               aria-label="Company name"
               class="input-component--input"
               type="text"
@@ -211,14 +218,11 @@ layout: default
         </div>
       </div>
 
-      <a
-        href="https://app.managerbot.dev/authentication/register"
-        class="button cta"
-      >
+      <button class="button cta">
         Register
         <i><img src="assets/images/angle.svg" /></i>
         <div class="stripes"></div>
-      </a>
+      </button>
     </form>
   </section>
 </div>
