@@ -1,18 +1,3 @@
-@import url("pasta/reset.css");
-@import url("pasta/colours.css");
-@import url("pasta/base-variables.css");
-@import url("pasta/typography.css");
-@import url("pasta/navigation.css");
-@import url("pasta/button.css");
-@import url("pasta/form.css");
-@import url("pasta/stripes.css");
-@import url("components/arrows.css");
-@import url("components/marketing-hero.css");
-@import url("components/full-width-layout.css");
-@import url("components/colomnar-layout.css");
-@import url("components/default-layout.css");
-@import url("components/posts.css");
-
 :root {
   /* variable overrides */
   --navigation-bottom-padding: 18px;
