@@ -17,6 +17,14 @@
   margin-bottom: 20px;
 }
 
+.post h2 {
+  font-size: var(--h3-font-size);
+}
+
+.post h3 {
+  font-size: var(--h2-font-size);
+}
+
 .post p {
   margin-bottom: 10px;
 }
