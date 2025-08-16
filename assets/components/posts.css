@@ -1,11 +1,11 @@
 .post-container {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .post {
-  max-width: 860px;
+    max-width: 860px;
 }
 
 .post h1,
@@ -14,9 +14,47 @@
 .post h4,
 .post h5,
 .post h6 {
-  margin-bottom: 20px;
 }
 
-.post p {
-  margin-bottom: 10px;
+.post strong {
+    font-weight: 600;
+}
+.post p,
+.post ul,
+.post ol {
+    margin-bottom: 20px;
+    color: #cfcbea;
+}
+
+.post ul {
+    background-color: #292453;
+    color: #8eb7e3;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.post li {
+    margin-bottom: auto;
+}
+
+.post h1 {
+    margin-bottom: 15px;
+}
+
+.post h2,
+.post h3 {
+    font-size: var(--h2-font-size);
+    text-transform: none;
+    margin: 50px 0 15px 0;
+}
+.post .highlight,
+.post blockquote {
+    background-color: #1e2e5b;
+    border-left: 10px #8ebfe3 solid;
+    color: #8ebfe3;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 17px;
+    line-height: initial;
+    margin-bottom: 20px;
 }
