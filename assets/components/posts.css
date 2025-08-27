@@ -8,12 +8,28 @@
     max-width: 860px;
 }
 
+.post * {
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+}
+
 .post h1,
 .post h2,
 .post h3,
 .post h4,
 .post h5,
 .post h6 {
+    font-family: "Outfit", sans-serif;
 }
 
 .post strong {

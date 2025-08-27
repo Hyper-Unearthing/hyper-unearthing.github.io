@@ -1,57 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <link rel="icon" href="/assets/images/mb-mark.svg" type="image/svg+xml" />
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="UTF-8" />
-    <meta name="description" content="{{page.description}}" />
-    {% include lazy-load.html %}
-    <link integrity="" rel="stylesheet" href="/assets/main.css" />
-    <link rel="stylesheet" href="/assets/pasta/reset.css" />
-    <link rel="stylesheet" href="/assets/pasta/colours.css" />
-    <link rel="stylesheet" href="/assets/pasta/base-variables.css" />
-    <link rel="stylesheet" href="/assets/pasta/typography.css" />
-    <link rel="stylesheet" href="/assets/pasta/navigation.css" />
-    <link rel="stylesheet" href="/assets/pasta/button.css" />
-    <link rel="stylesheet" href="/assets/pasta/form.css" />
-    <link rel="stylesheet" href="/assets/pasta/stripes.css" />
-    <link rel="stylesheet" href="/assets/components/arrows.css" />
-    <link rel="stylesheet" href="/assets/components/marketing-hero.css" />
-    <link rel="stylesheet" href="/assets/components/full-width-layout.css" />
-    <link rel="stylesheet" href="/assets/components/colomnar-layout.css" />
-    <link rel="stylesheet" href="/assets/components/default-layout.css" />
-    <link rel="stylesheet" href="/assets/components/posts.css" />
-  </head>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:wght@300..800&display=swap"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
+        />
+        <link
+            rel="icon"
+            href="/assets/images/mb-mark.svg"
+            type="image/svg+xml"
+        />
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="{{page.description}}" />
+        {% include lazy-load.html %}
+        <link integrity="" rel="stylesheet" href="/assets/main.css" />
+        <link rel="stylesheet" href="/assets/pasta/reset.css" />
+        <link rel="stylesheet" href="/assets/pasta/colours.css" />
+        <link rel="stylesheet" href="/assets/pasta/base-variables.css" />
+        <link rel="stylesheet" href="/assets/pasta/typography.css" />
+        <link rel="stylesheet" href="/assets/pasta/navigation.css" />
+        <link rel="stylesheet" href="/assets/pasta/button.css" />
+        <link rel="stylesheet" href="/assets/pasta/form.css" />
+        <link rel="stylesheet" href="/assets/pasta/stripes.css" />
+        <link rel="stylesheet" href="/assets/components/arrows.css" />
+        <link rel="stylesheet" href="/assets/components/marketing-hero.css" />
+        <link
+            rel="stylesheet"
+            href="/assets/components/full-width-layout.css"
+        />
+        <link rel="stylesheet" href="/assets/components/colomnar-layout.css" />
+        <link rel="stylesheet" href="/assets/components/default-layout.css" />
+        <link rel="stylesheet" href="/assets/components/posts.css" />
+    </head>
 
-  <body class="dark">
-    <div class="navigation">
-      <div class="navigation__left">
-        <div class="field-errors">
-          <img class="logo" alt="logo" data-echo="/assets/images/mb-mark.svg" />
-          <b class="logo-text">managerbot</b>
+    <body class="dark">
+        <div class="navigation">
+            <div class="navigation__left">
+                <div class="field-errors">
+                    <img
+                        class="logo"
+                        alt="logo"
+                        data-echo="/assets/images/mb-mark.svg"
+                    />
+                    <b class="logo-text">managerbot</b>
+                </div>
+            </div>
+            <div class="navigation__right">
+                <a href="https://app.managerbot.dev">Log In</a>
+                <a
+                    href="https://app.managerbot.dev/authentication/register"
+                    class="button secondary"
+                >
+                    Get Started
+                    <img
+                        data-echo="/assets/images/heart.svg"
+                        alt=""
+                        class="heart"
+                    />
+                </a>
+            </div>
         </div>
-      </div>
-      <div class="navigation__right">
-        <a href="https://app.managerbot.dev">Log In</a>
-        <a
-          href="https://app.managerbot.dev/authentication/register"
-          class="button secondary"
-        >
-          Get Started
-          <img data-echo="/assets/images/heart.svg" alt="" class="heart" />
-        </a>
-      </div>
-    </div>
-    {{ content }}
-  </body>
-  {% include posthog.html %}
+        {{ content }}
+    </body>
+    {% include posthog.html %}
 </html>
