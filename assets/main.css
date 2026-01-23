@@ -101,3 +101,77 @@ p {
     flex-direction: column;
   }
 }
+
+
+
+// <weight>: Use a value from 200 to 800
+// <uniquifier>: Use a unique and descriptive class name
+
+.bricolage-grotesque-<uniquifier> {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.hero {
+  flex-direction: row !important;
+}
+.content {
+text-align:left;
+max-width:500px;
+}
+
+.hero .content h1 {
+  font-size:52px;
+  margin-bottom:20px !important;
+}
+
+.ht-tagline {
+  font-size: 22px;
+  line-height:1.4;
+  font-weight:300;
+  margin-bottom:30px; 
+}
+.button {
+  background-color: #077ACB !important;
+}
+
+.button.secondary {
+  background-color: var(--royal-900) !important;;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: auto;
+  text-transform: none;
+  margin-bottom:10px !important;
+}
+
+p {
+  font-size: 22px;
+  line-height:31.6px;
+  color: #D2C7DD;
+}
+
+.full-width-layout__content {
+  margin:0 !important;
+  align-items:center;
+  text-align: center;
+}
+
+.old-way .full-width-layout__content p {
+  max-width: var(--old-way-copy-max-width, 80%) !important;
+}
+
+.old-way img {
+  margin-top: var(--old-way-image-margin, 30px) !important;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(0deg, #FEBA01, #F22089);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
