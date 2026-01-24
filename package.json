@@ -1,0 +1,12 @@
+{
+  "name": "hyper-unearthing-visual-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "visual-regression": "npx playwright test visual-regression.spec.ts --update-snapshots",
+    "visual-regression:check": "npx playwright test visual-regression.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0"
+  }
+}
