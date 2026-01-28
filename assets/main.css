@@ -17,8 +17,7 @@ body {
     var(--full-page-content-gutter) var(--full-page-content-vertical-spacing)
     var(--full-page-content-gutter);
   --h2-font: var(--bold-font-weight) 14px var(--font-family);
-  --p-font: var(--light-font-weight) 20px / var(--body-line-height)
-    var(--font-family);
+  --p-font: 22px/31.6px var(--font-family);
   --ul-font: var(--light-font-weight) 20px var(--font-family);
   --hero-p-font: var(--regular-font-weight) var(--body-font-size)
     var(--font-family);
@@ -53,10 +52,15 @@ h2 {
   font: var(--h2-font);
   text-transform: uppercase;
   letter-spacing: 0.4px;
+  font-size: 32px;
+  line-height: auto;
+  text-transform: none;
+  margin-bottom: 10px !important;
 }
 
 p {
   font: var(--p-font);
+  color: #d2c7dd;
 }
 
 .footer {
