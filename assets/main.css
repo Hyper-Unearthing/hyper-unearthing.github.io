@@ -1,4 +1,7 @@
 body {
+  /* top level variables */
+  --page-gutter: 135px;
+
   /* variable overrides */
   --font-family: "Bricolage Grotesque", sans-serif;
   --navigation-bottom-padding: 18px;
@@ -8,10 +11,11 @@ body {
   --cta-button-padding: 16px 24px;
   --button-background-color: #077acb;
   --button-secondary-background-color: var(--royal-900);
+  --navigation-horizontal-padding: var(--page-gutter);
 
   /* new variables  */
-  --hero-gutter: 220px;
-  --full-page-content-gutter: 140px;
+  --hero-gutter: var(--page-gutter);
+  --full-page-content-gutter: var(--page-gutter);
   --full-page-content-vertical-spacing: 100px;
   --full-page-section-padding: var(--full-page-content-vertical-spacing)
     var(--full-page-content-gutter) var(--full-page-content-vertical-spacing)
