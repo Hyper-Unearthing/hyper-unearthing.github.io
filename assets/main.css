@@ -4,9 +4,10 @@ body {
   --navigation-bottom-padding: 18px;
   --body-line-height: 1.8rem;
   --body-font-size: 1.5rem;
-  --button-secondary-background: #0a0524;
   --cta-button-font-size: 1.25rem;
   --cta-button-padding: 16px 24px;
+  --button-background-color: #077acb;
+  --button-secondary-background-color: var(--royal-900);
 
   /* new variables  */
   --hero-gutter: 220px;
