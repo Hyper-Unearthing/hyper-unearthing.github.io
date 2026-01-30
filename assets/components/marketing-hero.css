@@ -1,4 +1,4 @@
-@media (max-width: 980px) {
+@media (width <= 980px) {
   :root {
     --hero-content-align: left;
     --integration-icon-size: 50px;
@@ -19,7 +19,9 @@
 
 .hero {
   display: flex;
+
   --section-background-color: var(--royal-900);
+
   padding: var(
     --hero-padding,
     100px var(--hero-gutter) 100px var(--hero-gutter)
