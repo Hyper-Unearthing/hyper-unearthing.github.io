@@ -29,12 +29,13 @@
 .post h4,
 .post h5,
 .post h6 {
-    font-family: "Outfit", sans-serif;
+    font-family: Outfit, sans-serif;
 }
 
 .post strong {
     font-weight: 600;
 }
+
 .post p,
 .post ul,
 .post ol {
@@ -61,8 +62,9 @@
 .post h3 {
     font-size: var(--h2-font-size);
     text-transform: none;
-    margin: 50px 0 15px 0;
+    margin: 50px 0 15px;
 }
+
 .post .highlight,
 .post blockquote {
     background-color: #1e2e5b;

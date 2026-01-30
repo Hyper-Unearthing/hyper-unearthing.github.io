@@ -12,9 +12,10 @@
   gap: 37px;
 }
 
-@media (max-width: 980px) {
+@media (width <= 980px) {
   .navigation {
     --navigation-horizontal-padding: 16px;
+
     gap: 16px;
   }
 }
