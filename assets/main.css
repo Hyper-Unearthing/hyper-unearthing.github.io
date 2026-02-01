@@ -35,6 +35,12 @@ body {
   background-color: var(--royal-900);
 }
 
+.getting-started {
+  .happy-dev {
+    width: 70px;
+    height: auto;
+  }
+}
 .new-way {
   --section-background-color: var(--royal-900);
 }
