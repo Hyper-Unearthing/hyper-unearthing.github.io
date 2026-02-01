@@ -31,11 +31,6 @@ body {
   background-color: var(--royal-900);
 }
 
-.old-way,
-.benefits {
-  --section-background-color: #291d50;
-}
-
 .getting-started {
   background-color: var(--royal-900);
 }
@@ -109,4 +104,16 @@ p {
     display: flex;
     flex-direction: column;
   }
+}
+
+ol {
+  list-style-type: decimal !important;
+  list-style-position: inside !important;
+}
+
+ol li {
+  list-style: inherit;
+  margin-bottom: 0;
+  line-height: 28px;
+  font-size: 20px;
 }
