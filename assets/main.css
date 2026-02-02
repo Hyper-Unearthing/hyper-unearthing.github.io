@@ -46,7 +46,7 @@ body {
 }
 
 .mobile {
-  display: none;
+  display: none !important;
 }
 
 a {
@@ -82,20 +82,37 @@ p {
 
 @media (width <= 980px) {
   :root {
-    --hero-gutter: 32px;
-    --full-page-content-gutter: 32px;
+    --hero-gutter: 40px;
+    --full-page-content-gutter: 40px;
     --full-page-content-vertical-spacing: 40px;
+
     --body-font-size: 1.25rem;
     --old-way-copy-max-width: 100%;
+    --hero-flex-direction: column;
     --navigation-height: 80px;
+
+    .colomnar-layout,
+    .full-width-layout {
+      --full-page-section-padding: 45px 40px;
+    }
+
+    --hero-padding: 45px 40px;
+  }
+
+  .metrics .banner {
+    padding: 30px 30px !important;
+  }
+
+  body .colomnar-layout.notifications {
+    --benefits-section-gap: 24px;
   }
 
   .mobile {
-    display: block;
+    display: block !important;
   }
 
   .desktop {
-    display: none;
+    display: none !important;
   }
 
   .full-width-layout__content {
@@ -109,6 +126,24 @@ p {
   .colomnar-layout {
     display: flex;
     flex-direction: column;
+  }
+
+  .metrics {
+    flex-direction: column;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto auto !important;
+    gap: 30px !important;
+    grid-template-areas:
+      "metrics-top"
+      "metrics-bottom-left"
+      "metrics-bottom-right" !important;
+  }
+
+  .metrics-top ol {
+    columns: 1 !important;
   }
 }
 
