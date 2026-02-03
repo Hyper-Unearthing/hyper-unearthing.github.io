@@ -15,13 +15,13 @@
 }
 
 .old-way {
-  background: -webkit-linear-gradient(#090622, #171336);
+  background: linear-gradient(#090622, #171336);
   padding-bottom: 0;
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(0deg, #feba01, #f22089);
-  -webkit-background-clip: text;
+  background: linear-gradient(0deg, #feba01, #f22089);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -65,7 +65,8 @@
 
 .metrics .banner {
   width: 100%;
-  /*background: var(--royal-800);*/
+
+  /* background: var(--royal-800); */
   background-color: #291d50;
   align-content: center;
   padding: 0 76px 0 67px;
@@ -79,7 +80,8 @@
 
 .metrics .list {
   width: 100%;
-  /*background: var(--royal-600);*/
+
+  /* background: var(--royal-600); */
   background-color: #52338c;
   padding: 37px 74px 37px 25px;
   flex: 2;
@@ -95,13 +97,9 @@
 
 .metrics-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 230px 230px;
+  grid-template: "metrics-top metrics-top" 230px "metrics-bottom-left metrics-bottom-right" 230px / 1fr 1fr;
   gap: 30px 60px;
   grid-auto-flow: row;
-  grid-template-areas:
-    "metrics-top metrics-top"
-    "metrics-bottom-left metrics-bottom-right";
 }
 
 .metrics-top {

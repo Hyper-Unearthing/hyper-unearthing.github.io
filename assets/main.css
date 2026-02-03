@@ -26,22 +26,19 @@ body {
   --ul-font: var(--light-font-weight) 20px var(--font-family);
   --hero-p-font: var(--regular-font-weight) var(--body-font-size)
     var(--font-family);
-}
 
-body {
   background-color: var(--royal-900);
 }
 
 .getting-started {
   background-color: var(--royal-900);
-}
 
-.getting-started {
   .happy-dev {
     width: 70px;
     height: auto;
   }
 }
+
 .new-way {
   --section-background-color: var(--royal-900);
 }
@@ -56,10 +53,9 @@ a {
 
 h2 {
   font: var(--h2-font);
-  text-transform: uppercase;
   letter-spacing: 0.4px;
   font-size: 32px;
-  line-height: auto;
+  line-height: normal;
   text-transform: none;
   margin-bottom: 10px !important;
 }
@@ -82,11 +78,15 @@ p {
 }
 
 @media (width <= 980px) {
+  .colomnar-layout {
+    display: flex;
+    flex-direction: column;
+  }
+
   :root {
     --hero-gutter: 40px;
     --full-page-content-gutter: 40px;
     --full-page-content-vertical-spacing: 40px;
-
     --body-font-size: 1.25rem;
     --old-way-copy-max-width: 100%;
     --hero-flex-direction: column;
@@ -113,7 +113,7 @@ p {
   }
 
   .metrics .banner {
-    padding: 30px 30px !important;
+    padding: 30px !important;
   }
 
   body .colomnar-layout.notifications {
@@ -137,11 +137,6 @@ p {
     flex-direction: column;
   }
 
-  .colomnar-layout {
-    display: flex;
-    flex-direction: column;
-  }
-
   .colomnar-layout.getting-started section:last-child {
     order: -1;
   }
@@ -151,17 +146,12 @@ p {
   }
 
   .metrics .list {
-    padding: 37px 25px 37px 25px !important;
+    padding: 37px 25px !important;
   }
 
   .metrics-grid {
-    grid-template-columns: 1fr !important;
-    grid-template-rows: auto auto auto !important;
+    grid-template: "metrics-top" auto "metrics-bottom-left" auto "metrics-bottom-right" auto / 1fr !important;
     gap: 30px !important;
-    grid-template-areas:
-      "metrics-top"
-      "metrics-bottom-left"
-      "metrics-bottom-right" !important;
   }
 
   .metrics-top ol {

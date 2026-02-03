@@ -1,26 +1,26 @@
 .post-container {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 .post {
-    max-width: 860px;
+  max-width: 860px;
 }
 
 .post * {
-    font-family:
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Helvetica,
-        Arial,
-        sans-serif,
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol";
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
 }
 
 .post h1,
@@ -29,50 +29,50 @@
 .post h4,
 .post h5,
 .post h6 {
-    font-family: Outfit, sans-serif;
+  font-family: Outfit, sans-serif;
 }
 
 .post strong {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .post p,
 .post ul,
 .post ol {
-    margin-bottom: 20px;
-    color: #cfcbea;
+  margin-bottom: 20px;
+  color: #cfcbea;
 }
 
 .post ul {
-    background-color: #292453;
-    color: #8eb7e3;
-    border-radius: 3px;
-    padding: 10px;
+  background-color: #292453;
+  color: #8eb7e3;
+  border-radius: 3px;
+  padding: 10px;
 }
 
 .post li {
-    margin-bottom: auto;
+  margin-bottom: auto;
 }
 
 .post h1 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .post h2,
 .post h3 {
-    font-size: var(--h2-font-size);
-    text-transform: none;
-    margin: 50px 0 15px;
+  font-size: var(--h2-font-size);
+  text-transform: none;
+  margin: 50px 0 15px;
 }
 
 .post .highlight,
 .post blockquote {
-    background-color: #1e2e5b;
-    border-left: 10px #8ebfe3 solid;
-    color: #8ebfe3;
-    border-radius: 3px;
-    padding: 20px;
-    font-size: 17px;
-    line-height: initial;
-    margin-bottom: 20px;
+  background-color: #1e2e5b;
+  border-left: 10px #8ebfe3 solid;
+  color: #8ebfe3;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 17px;
+  line-height: initial;
+  margin-bottom: 20px;
 }

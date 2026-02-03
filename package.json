@@ -1,5 +1,9 @@
 {
   "private": true,
+  "scripts": {
+    "format": "prettier --write . && stylelint --fix \"**/*.css\"",
+    "format:check": "prettier --check . && stylelint \"**/*.css\""
+  },
   "devDependencies": {
     "prettier": "^3.4.2",
     "stylelint": "^16.12.0",
