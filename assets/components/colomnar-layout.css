@@ -25,6 +25,8 @@ li {
 
 .notifications {
   --benefits-section-gap: 160px;
+
+  background: #1a1745;
 }
 
 .notifications section {
@@ -41,8 +43,4 @@ li {
   display: flex;
   gap: 16px;
   margin-bottom: 16px;
-}
-
-.notifications {
-  background: #1a1745;
 }

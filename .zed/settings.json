@@ -1,14 +1,25 @@
 {
+  "formatter": {
+    "external": {
+      "command": "npx",
+      "arguments": ["prettier", "--stdin-filepath", "{buffer_path}"]
+    }
+  },
+  "format_on_save": "on",
   "languages": {
     "CSS": {
       "tab_size": 2,
       "formatter": {
         "external": {
-          "command": "npx",
-          "arguments": ["prettier", "--stdin-filepath", "{buffer_path}"]
+          "command": "bash",
+          "arguments": [
+            "-c",
+            "npx prettier --stdin-filepath \"$1\" | npx stylelint --fix --stdin --stdin-filename \"$1\"",
+            "--",
+            "{buffer_path}"
+          ]
         }
-      },
-      "format_on_save": "on"
+      }
     }
   }
 }
