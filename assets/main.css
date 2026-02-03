@@ -99,6 +99,18 @@ p {
     --hero-padding: 45px 40px;
   }
 
+  .navigation__right {
+    display: none !important;
+  }
+
+  .navigation__left {
+    flex-grow: inherit !important;
+  }
+
+  .navigation {
+    justify-content: center;
+  }
+
   .metrics .banner {
     padding: 30px 30px !important;
   }
