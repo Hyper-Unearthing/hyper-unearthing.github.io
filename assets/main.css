@@ -4,6 +4,7 @@ body {
 
   /* variable overrides */
   --font-family: "Bricolage Grotesque", sans-serif;
+  --logo-font-family: "Outfit", sans-serif;
   --navigation-bottom-padding: 18px;
   --body-line-height: 1.8rem;
   --body-font-size: 1.5rem;
@@ -178,4 +179,8 @@ ol li {
   margin-bottom: 0;
   line-height: 28px;
   font-size: 20px;
+}
+
+.logo-text {
+  font-family: var(--logo-font-family);
 }
