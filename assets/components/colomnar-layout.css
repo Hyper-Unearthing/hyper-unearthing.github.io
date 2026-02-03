@@ -9,18 +9,6 @@
   flex: 1;
 }
 
-.colomnar-layout h2 {
-  margin-bottom: var(--benefits-section-heading-margin, 48px);
-}
-
-.colomnar-layout img:not(button img, a img) {
-  margin-bottom: var(--benefits-section-image-margin, 64px);
-}
-
-.colomnar-layout p {
-  margin-bottom: var(--benefits-section-paragraph-margin-bottom, 48px);
-}
-
 ul {
   font: var(--ul-font);
   color: var(--royal-400);
@@ -33,4 +21,28 @@ li {
 
 .colomnar-layout section {
   flex-direction: column;
+}
+
+.notifications {
+  --benefits-section-gap: 160px;
+}
+
+.notifications section {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.notifications section > img {
+  width: 100%;
+  height: auto;
+}
+
+.notifications .logos {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.notifications {
+  background: #1a1745;
 }
