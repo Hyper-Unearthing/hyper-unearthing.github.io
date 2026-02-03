@@ -1,8 +1,14 @@
 @media (width <= 980px) {
   :root {
-    --hero-content-align: left;
+    --hero-content-align: center;
     --integration-mini-icon-size: 14px;
     --arrow-location: 17px;
+  }
+
+  .hero .content h1,
+  .ht-tagline {
+    text-align: center !important;
+    max-width: 100% !important;
   }
 }
 

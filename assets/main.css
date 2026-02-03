@@ -129,6 +129,7 @@ p {
 
   .full-width-layout__content {
     flex-direction: column;
+    text-align: left;
   }
 
   section {
@@ -140,8 +141,16 @@ p {
     flex-direction: column;
   }
 
+  .colomnar-layout.getting-started section:last-child {
+    order: -1;
+  }
+
   .metrics {
     flex-direction: column;
+  }
+
+  .metrics .list {
+    padding: 37px 25px 37px 25px !important;
   }
 
   .metrics-grid {
