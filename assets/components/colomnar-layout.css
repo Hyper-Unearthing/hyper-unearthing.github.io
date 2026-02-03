@@ -9,14 +9,6 @@
   flex: 1;
 }
 
-.colomnar-layout h2 {
-  margin-bottom: var(--benefits-section-heading-margin, 48px);
-}
-
-.colomnar-layout p {
-  margin-bottom: var(--benefits-section-paragraph-margin-bottom, 48px);
-}
-
 ul {
   font: var(--ul-font);
   color: var(--royal-400);
