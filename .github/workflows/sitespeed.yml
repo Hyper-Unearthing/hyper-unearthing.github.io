@@ -12,7 +12,7 @@ jobs:
           docker run --rm -v /tmp/sitespeed-compare:/sitespeed.io sitespeedio/sitespeed.io:latest \
             https://managerbot-marketing.pages.dev/ \
             https://managerbot.dev/ \
-            -n 3 \
+            -n 20 \
             --outputFolder /sitespeed.io
 
       - name: Upload results
