@@ -60,9 +60,16 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-pages-artifact@v1
+        uses: actions/download-artifact@v4
         with:
+          name: github-pages
           path: _site
+
+      - name: Extract artifact
+        run: |
+          cd _site
+          tar -xvf artifact.tar
+          rm artifact.tar
 
       - name: Deploy to Cloudflare Pages
         id: deployment
