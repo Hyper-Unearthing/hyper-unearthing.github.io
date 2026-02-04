@@ -1,0 +1,22 @@
+name: Sitespeed.io Performance Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sitespeed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run sitespeed.io
+        run: |
+          docker run --rm -v /tmp/sitespeed-compare:/sitespeed.io sitespeedio/sitespeed.io:latest \
+            https://managerbot-marketing.pages.dev/ \
+            https://managerbot.dev/ \
+            -n 3 \
+            --outputFolder /sitespeed.io
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: sitespeed-results
+          path: /tmp/sitespeed-compare
